@@ -1,0 +1,43 @@
+{
+    "breakpoints": [
+        {
+            "breakpoint_type": 0,
+            "condition": "",
+            "enabled": true,
+            "filename": "main.c",
+            "line": 5,
+            "timestamp": "1731438645112"
+        }
+    ],
+    "timestamp": "1732132711843",
+    "watchvars": [
+        {
+            "expression": "a",
+            "timestamp": "1731421087815"
+        },
+        {
+            "expression": "b",
+            "timestamp": "1731421093324"
+        },
+        {
+            "expression": "sum",
+            "timestamp": "1731421098041"
+        },
+        {
+            "expression": "x",
+            "timestamp": "1731421103654"
+        },
+        {
+            "expression": "y",
+            "timestamp": "1731421108032"
+        },
+        {
+            "expression": "&a",
+            "timestamp": "1731421116298"
+        },
+        {
+            "expression": "&b",
+            "timestamp": "1731421128731"
+        }
+    ]
+}

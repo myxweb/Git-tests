@@ -1,0 +1,35 @@
+# Project: test_1112_DevCpp
+# Makefile created by Red Panda C++ 3.1.2871
+
+CXX      = "g++.exe"
+CC       = "gcc.exe"
+WINDRES  = "windres.exe"
+RM       = del /q /f
+CD       = cd /d
+LIBS     = 
+INCS     = 
+CXXINCS  = 
+CXXFLAGS = $(CXXINCS) "-g3" "-pipe" "-Wall" "-D_DEBUG"
+CFLAGS   = $(INCS) "-g3" "-pipe" "-Wall" "-D_DEBUG"
+WINDRESFLAGS = 
+OBJ      = main.o add.o
+BIN      = test_1112_DevCpp.exe
+LINKOBJ  = "main.o" "add.o"
+CLEANOBJ = "main.o" "add.o" "test_1112_DevCpp.exe"
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	-$(RM) $(CLEANOBJ) >NUL 2>&1
+
+test_1112_DevCpp.exe: $(OBJ)
+
+	$(CC) $(LINKOBJ) -o "test_1112_DevCpp.exe" $(LIBS)
+
+main.o: main.c
+	$(CC) -c "main.c" -o "main.o" $(CFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+add.o: add.c
+	$(CC) -c "add.c" -o "add.o" $(CFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk

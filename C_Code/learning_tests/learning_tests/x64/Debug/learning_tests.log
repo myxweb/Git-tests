@@ -1,0 +1,6 @@
+﻿  局部变量和全局变量.c
+C:\Users\xuni0\Desktop\C_Code\learning_tests\learning_tests\局部变量和全局变量.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\xuni0\Desktop\C_Code\learning_tests\learning_tests\局部变量和全局变量.c(14,5): error C2065: “b”: 未声明的标识符
+C:\Users\xuni0\Desktop\C_Code\learning_tests\learning_tests\局部变量和全局变量.c(15,5): error C2065: “c”: 未声明的标识符
+C:\Users\xuni0\Desktop\C_Code\learning_tests\learning_tests\局部变量和全局变量.c(15,13): error C2065: “b”: 未声明的标识符
+C:\Users\xuni0\Desktop\C_Code\learning_tests\learning_tests\局部变量和全局变量.c(18,31): error C2065: “c”: 未声明的标识符

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\xuni0\\Desktop\\C_Code\\test_1110_VS2022\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ACE2705A-ACE0-4727-BD9A-04E8E6B0532D}|test_1110_VS2022\\test_1110_VS2022.vcxproj|C:\\Users\\xuni0\\Desktop\\C_Code\\test_1110_VS2022\\test_1110_VS2022\\\u7B80\u6613\u8BA1\u7B97\u5668.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ACE2705A-ACE0-4727-BD9A-04E8E6B0532D}|test_1110_VS2022\\test_1110_VS2022.vcxproj|solutionrelative:test_1110_VS2022\\\u7B80\u6613\u8BA1\u7B97\u5668.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\u7B80\u6613\u8BA1\u7B97\u5668.c",
+              "DocumentMoniker": "C:\\Users\\xuni0\\Desktop\\C_Code\\test_1110_VS2022\\test_1110_VS2022\\\u7B80\u6613\u8BA1\u7B97\u5668.c",
+              "RelativeDocumentMoniker": "test_1110_VS2022\\\u7B80\u6613\u8BA1\u7B97\u5668.c",
+              "ToolTip": "C:\\Users\\xuni0\\Desktop\\C_Code\\test_1110_VS2022\\test_1110_VS2022\\\u7B80\u6613\u8BA1\u7B97\u5668.c",
+              "RelativeToolTip": "test_1110_VS2022\\\u7B80\u6613\u8BA1\u7B97\u5668.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-14T20:23:44.841Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

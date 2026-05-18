@@ -1,0 +1,47 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: gcc.exe 生成活动文件",
+			"command": "D:\\StudyAndWork\\MinGWw64\\mingw64\\bin\\gcc.exe", // 指定编译器
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${workspaceFolder}\\*.c", // 被编译的文件（本该身处哪个C文件就编译哪个文件），将"${file}"修改为"${workspaceFolder}\\*.c"：同时编译
+				"-o",
+				
+				// 指定生成的可执行文件的路径，编译输出的文件名（本该身处哪个C文件就输出相应文件名）
+				// 将 "${fileDirname}\\${fileBasenameNoExtension}.exe" 修改为 "${workspaceFolder}\\${workspaceRootFolderName}.exe" ：打开的文件夹的名字.exe
+				// 或者 修改为: "${workspaceFolder}\\myProgram.exe" : 把编译输出的文件名硬编码为myProgram.exe，而不是与C文件同名
+				"${workspaceFolder}\\${workspaceRootFolderName}.exe" 
+			],
+			"options": {
+				"cwd": "${fileDirname}" 
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "编译器: D:\\StudyAndWork\\MinGWw64\\mingw64\\bin\\gcc.exe"
+		}
+	]
+}
+
+// 在VSCode中，json文件的路径配置可以通过使用特定的变量来实现，这些变量会根据当前的工作环境动态解析：
+// 路径变量及其含义
+// ‌${userHome}‌：主文件夹的路径，例如 C:\home\username。
+// ‌${workspaceFolder}‌：根工作区的路径，例如 C:\home\username\project。
+// ‌${workspaceFolderBasename}‌：根工作区的名称，例如 project。
+// ‌${file}‌：当前打开的文件的绝对路径，例如 C:\home\username\project\folder\test.cpp。
+// ‌${fileWorkspaceFolder}‌：当前打开的工作区文件夹的路径，例如 C:\home\username\project。
+// ‌${relativeFile}‌：当前打开的文件相对于工作区的路径，例如 folder\test.cpp。
+// ‌${fileBasename}‌：当前打开的文件的基名，包括扩展名，例如 test.cpp。
+// ‌${fileBasenameNoExtension}‌：当前打开的文件的基名，不包括扩展名，例如 test。
+// ‌${fileExtname}‌：当前打开的文件的扩展名，例如 .cpp。
+// ‌${fileDirname}‌：当前打开的文件的文件夹路径，例如 C:\home\username\project\folder。
+// ‌${cwd}‌：VSCode启动时任务运行程序的当前工作目录。
+// ‌${lineNumber}‌：游标的行号。
+// ‌${selecterText}‌：选定的文本。
+// ‌${execPath}‌：正在运行的可执行文件的路径。
+// ‌${defaultBuildTask}‌：默认构建任务的名称。
